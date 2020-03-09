@@ -34,10 +34,10 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 [https://www.figma.com/](https://www.figma.com/)
 [https://mockflow.com/app/#Wireframe](https://mockflow.com/app/#Wireframe)
 
-[wireframe 1 desktop](https://res.cloudinary.com/do6tcpizk/raw/upload/v1583788416/Project%201%20Portfolio%20Site/0_tstq59)
-[wireframe 2 desktop](https://res.cloudinary.com/do6tcpizk/raw/upload/v1583788408/Project%201%20Portfolio%20Site/0_zkc3ds)
-[wireframe 1 mobile](https://res.cloudinary.com/do6tcpizk/raw/upload/v1583788402/Project%201%20Portfolio%20Site/0_prf4zb)
-[wireframe 2 mobile](https://res.cloudinary.com/do6tcpizk/raw/upload/v1583788380/Project%201%20Portfolio%20Site/0_pbfks5)
+[wireframe 1 desktop](https://res.cloudinary.com/do6tcpizk/image/upload/v1583788783/Project%201%20Portfolio%20Site/IMG_3120_r1chr3.jpg)
+[wireframe 2 desktop](https://res.cloudinary.com/do6tcpizk/image/upload/v1583788787/Project%201%20Portfolio%20Site/IMG_3121_mlczhg.jpg)
+[wireframe 1 mobile](https://res.cloudinary.com/do6tcpizk/image/upload/v1583788791/Project%201%20Portfolio%20Site/IMG_3122_lb4yiq.jpg)
+[wireframe 2 mobile](https://res.cloudinary.com/do6tcpizk/image/upload/v1583788795/Project%201%20Portfolio%20Site/IMG_3123_n6uouj.jpg)
 
 ## Time/Priority Matrix 
 
