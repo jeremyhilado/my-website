@@ -35,7 +35,7 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 [https://mockflow.com/app/#Wireframe](https://mockflow.com/app/#Wireframe)
 
 [wireframe 1 desktop](https://res.cloudinary.com/do6tcpizk/raw/upload/v1583788416/Project%201%20Portfolio%20Site/0_tstq59)
-[wireframe 2 desktop](https://res.cloudinary.com/do6tcpizk/raw/upload/v1583788408/Project%201%20Portfolio%20Site/0_zkc3ds
+[wireframe 2 desktop](https://res.cloudinary.com/do6tcpizk/raw/upload/v1583788408/Project%201%20Portfolio%20Site/0_zkc3ds)
 [wireframe 1 mobile](https://res.cloudinary.com/do6tcpizk/raw/upload/v1583788402/Project%201%20Portfolio%20Site/0_prf4zb)
 [wireframe 2 mobile](https://res.cloudinary.com/do6tcpizk/raw/upload/v1583788380/Project%201%20Portfolio%20Site/0_pbfks5)
 
