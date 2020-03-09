@@ -20,10 +20,13 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
 
+My final project will be a website that functions as a single page portfolio showcasing all the web development projects I have completed. It will have a navigation bar at the top that has my name on the left and then three links on the right that navigate to an "About" section, "Projects" section, and "Contact" form. The website will be responsive to both mobile and desktop screen widths. For the mobile the nav bar's layout will change to vertical alignment and the projects section will become a single column featuring 1 project per row.
+
 ## Google Sheet
 
 Include link to your google sheet here.  Here is the sample [Joe had used in class](https://docs.google.com/spreadsheets/d/15PmioBi2dQEkewpqI7MDkDpvcVF0Trw8vmarAQbwoHk/edit#gid=0) 
 
+[my google sheet](https://docs.google.com/spreadsheets/d/1TlKP5RsL9Di78UFVrO_7kNCEBDvQXZa1_1LdwngtBrk/edit#gid=0)
 ## Wireframes
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
