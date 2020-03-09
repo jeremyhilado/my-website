@@ -34,6 +34,11 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 [https://www.figma.com/](https://www.figma.com/)
 [https://mockflow.com/app/#Wireframe](https://mockflow.com/app/#Wireframe)
 
+[wireframe 1 desktop](https://res.cloudinary.com/do6tcpizk/raw/upload/v1583788416/Project%201%20Portfolio%20Site/0_tstq59)
+[wireframe 2 desktop](https://res.cloudinary.com/do6tcpizk/raw/upload/v1583788408/Project%201%20Portfolio%20Site/0_zkc3ds
+[wireframe 1 mobile](https://res.cloudinary.com/do6tcpizk/raw/upload/v1583788402/Project%201%20Portfolio%20Site/0_prf4zb)
+[wireframe 2 mobile](https://res.cloudinary.com/do6tcpizk/raw/upload/v1583788380/Project%201%20Portfolio%20Site/0_pbfks5)
+
 ## Time/Priority Matrix 
 
 Include a full list of features that have been prioritized based on the `Time and Priority` Matix.  This involves drawing a a square.  In the middle of the square, on the x axis draw a line.  The most left part of the line should start with 0hrs and the end of the line should include 2hrs.  This line will be used to estimate how much time any one feature will take to complete. 
