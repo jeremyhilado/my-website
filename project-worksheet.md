@@ -9,7 +9,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |  Day | Deliverable | Status
 |---|---| ---|
 |Day 1| Project Description | Complete
-|Day 2| Wireframes / Priority Matrix / Timeline | Incomplete
+|Day 2| Wireframes / Priority Matrix / Timeline | Complete
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |Day 4| MVP & Bug Fixes | Incomplete
 |Day 5| Final Touches | Incomplete
@@ -92,7 +92,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Nav Bar Animations | L | 3 hrs | - | - |
 | Project Preview Animations | L | 4 hrs | - | - |
 | Carousel | L | 3 hrs | - | - |
-| Contact Form Validatoin | 2 hrs | - | - |
+| Contact Form Validatoin | L | 2 hrs | - | - |
 | Total |  | 33.5 hrs| - hrs |  - hrs |
 
 ## Additional Libraries
