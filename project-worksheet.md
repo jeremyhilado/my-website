@@ -49,6 +49,8 @@ Now create a separate list starting with A and assign it one of the features.  C
 
 Once complete tally up the time and determine how long the project will take to complete. Now break those features into MVP and PostMVP so you can guarantee you will have a fully functioning project to demo. 
 
+[Time/Priority Matrix](https://res.cloudinary.com/do6tcpizk/image/upload/v1583852480/Project%201%20Portfolio%20Site/IMG_3126_cpivox.jpg)
+
 ### MVP/PostMVP - 5min
 
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
@@ -79,13 +81,22 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 1.5hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| 
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Contact Form | H | 2hrs| - | - |
+| Working with API | H | 3hrs| - | - |
+| Hamburger Menu | H | 3 hrs | - | - |
+| Desktop Nav Bar | H | 2.5 hrs | - | - |
+| Basic CSS Styling | H | 3 hrs | - | - |
+| About Me Section | H | 2 hrs | - | - |
+| Projects Section | H | 4 hrs | - | - |
+| Footer | M | 2 hrs | - | - |
+| Nav Bar Animations | L | 3 hrs | - | - |
+| Project Preview Animations | L | 4 hrs | - | - |
+| Carousel | L | 3 hrs | - | - |
+| Contact Form Validatoin | 2 hrs | - | - |
+| Total |  | 33.5 hrs| - hrs |  - hrs |
 
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project. 
+ Use this section to list all supporting libraries and their role in the project. 
 
 ## Code Snippet
 
