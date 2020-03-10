@@ -57,21 +57,21 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 #### MVP
 
-A. Hamburger Menu
-B. Deskptop Nav Bar
-C. Basic CSS Styling
-D. About Me Section
-E. Projects Section
-F. Contact Form
-G. Footer
-L. Pull Data via Google API
+- Hamburger Menu
+- Deskptop Nav Bar
+- Basic CSS Styling
+- About Me Section
+- Projects Section
+- Contact Form
+- Footer
+- Pull Data via Google API
 
 #### PostMVP 
 
-H. Animated Nav Bar
-I. Animated Project Previews
-J. Carousel
-K. Contact Form Validation
+- Animated Nav Bar
+- Animated Project Previews
+- Carousel
+- Contact Form Validation
 
 ## Functional Components
 
