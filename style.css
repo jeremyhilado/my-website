@@ -42,3 +42,22 @@ h1 {
 h2 {
     text-align: center;
 }
+
+.card {
+    width: 30rem;
+}
+
+img {
+    height: 370px;
+}
+
+.projDiv {
+    justify-items: center;
+}
+
+@media (min-width: 769px) {
+    .projDiv {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2px;
+    }
+}
