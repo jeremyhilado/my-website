@@ -58,6 +58,10 @@ img {
     justify-items: center;
 }
 
+#contact {
+    padding: 50px 500px;
+}
+
 @media (min-width: 769px) {
     #projDiv {
         grid-template-columns: 1fr 1fr;
