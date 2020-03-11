@@ -13,7 +13,6 @@ fetch(source)
         // data.feed.entry is the array that stores our projects
         // the projects are stored as objects
         let projects = data.feed.entry.map( project => {
-            // console.log('project', project.gsx$title.$t)
             return {
             title: project.gsx$title.$t,
             image: project.gsx$image.$t,
@@ -25,7 +24,20 @@ fetch(source)
     })  // this provides us access to the parse data
     .catch( err => console.log('err', err))
 
+const $main = $('main')
+
+// projects.forEach( (project) => {
+//     console.log(project)
+//     // const $img = $('<img>')
+//     // $img.attr('src', projects.image)
+// )}
+
 function app(projects) {
     console.log('app - projects', projects)
     // the rest of your app goes here
+    for(let i = 0; i<projects.length; i++) {
+    const $img = $('<img>')
+    $img.attr('src', projects[i].image)
+    $main.append($img)
+    }
 }
