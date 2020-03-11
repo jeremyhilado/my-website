@@ -15,7 +15,8 @@
 </head>
 <body>
     <header>
-          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <!-- Bootstrap Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="d-flex flex-grow-1">
                 <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
                 <a class="navbar-brand" href="#">
@@ -42,7 +43,21 @@
             </div>
         </nav>
     </header>
-    
+    <main>
+        <!-- About Section -->
+        <div id="about" class="container-fluid chapter">
+            <div id="aboutRow" class="row no-gutters">
+                <!-- Top part for tablet/mobile and left part for laptop/desktop -->
+                <div id="about1" class="col-sm-12 col-lg-6">
+                    <h1 id="about1Text">About</h1>
+                </div>
+                <!-- Bottom part for tablet/mobile and right part for laptop/desktop-->
+                <div id="about2" class="col-sm-12 col-lg-6">
+                    <h1 id="about2Text">I'm a Software Engineer with a background in Supply Chain Management. My love for technology and desire to build has lead me down this new path.</h1>
+                </div>
+            </div>
+        </div>
+    </main>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="app.js"></script>
     </body>
