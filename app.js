@@ -34,17 +34,10 @@ const $main = $('main')
 
 function app(projects) {
     console.log('app - projects', projects)
-    // the rest of your app goes here
-    const $projDiv = $('<div>')
-    $projDiv.css({'display': 'grid', 'grid-auto-rows': 'minmax(300px, auto)', 'grid-gap': '.5rem'})
-    $projDiv.addClass('projDiv')
-    $main.append($projDiv)
+    
+    const $projDiv = $('#projDiv')
+
     for(let i = 0; i<projects.length; i++) {
-
-    // const $img = $('<img>')
-    // $img.attr('src', projects[i].image)
-    // $projDiv.append($img)
-
         let $card = $(`<div class="card">
             <img src=${projects[i].image} class="card-img-top" alt="...">
             <div class="card-body">

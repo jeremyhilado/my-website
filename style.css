@@ -51,12 +51,15 @@ img {
     height: 370px;
 }
 
-.projDiv {
+#projDiv {
+    display: grid;
+    grid-auto-rows: minmax(300px, auto);
+    grid-gap: .5rem;
     justify-items: center;
 }
 
 @media (min-width: 769px) {
-    .projDiv {
+    #projDiv {
         grid-template-columns: 1fr 1fr;
         grid-gap: 2px;
     }
