@@ -4,19 +4,19 @@
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6893d9ceeb.js"></script>
     <title>Jeremy Hilado's Portfolio Site</title>
     <script
         src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <!-- Bootstrap Navigation Bar -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
             <div class="d-flex flex-grow-1">
                 <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
                 <a class="navbar-brand" href="#">
@@ -31,13 +31,13 @@
             <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar7">
                 <ul class="navbar-nav ml-auto flex-nowrap">
                     <li class="nav-item">
-                        <a href="#" class="nav-link">About</a>
+                        <a href="#about" class="nav-link">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Projects</a>
+                        <a href="#projects" class="nav-link">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Contact</a>
+                        <a href="#contact" class="nav-link">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -59,12 +59,12 @@
         </div>
 
         <!-- Projects Section -->
-        <h2>Projects</h2>
+        <h2 id="projects">Projects</h2>
         <div id="projDiv"></div>
 
         <!-- Contact Section -->
-        <h2>Contact</h2>
-        <div id="contact">
+        <h2 id="contact">Contact</h2>
+        <div id="contactForm">
             <form>
                 <div class="form-row">
                     <div class="form-group col-md-6">
@@ -81,9 +81,17 @@
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
+            </form>
         </div>
     </main>
+    <footer>
+        <p id="footnote">© 2020 Jeremy Hilado</p>
+        <div id="socialLinks">
+            <a href="https://github.com/jeremyhilado" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/jeremy-hilado/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="app.js"></script>
     </body>
