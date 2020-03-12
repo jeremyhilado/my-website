@@ -49,3 +49,7 @@ function app(projects) {
         $projDiv.append($card)
     }
 }
+
+$('body').on('click', function () {
+    $('.navbar-collapse').collapse('hide')
+})
