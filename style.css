@@ -40,7 +40,12 @@ h1 {
 }
 
 h2 {
-    text-align: center;
+    /* text-align: center; */
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
 }
 
 .card {
@@ -52,6 +57,7 @@ img {
     width: 100%;
     height: 100%;
     transition: .5s ease;
+    border: 1px solid gray;
 }
 
 #projects {
@@ -66,15 +72,30 @@ img {
 
 #projDiv div {
     width: 500px;
-    height: 425px;
+    height: 425px;;
+}
+
+.projImage {
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2); */
+    box-shadow: 10px 10px 5px gray;
 }
 
 .projImage:hover img {
-    opacity: 0.2;
+    opacity: 0.1;
+    transition: .5s;
+    transform: scale(1.1);
+    /* border: 2px solid gray; */
+}
+
+.projImage:hover {
+    transition: .5s;
+    /* transform: scale(1.1); */
+    border: 2px solid gray;
 }
 
 .projImage:hover .showInfo {
     opacity: 1;
+    transition: .5s;
 }
 
 .showInfo {
@@ -88,6 +109,10 @@ img {
 #projDiv a {
     text-decoration: none;
     color: black;
+}
+
+#projDiv h3 {
+    padding: 100px 0;
 }
 
 #contactForm {
