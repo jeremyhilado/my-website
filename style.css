@@ -48,7 +48,10 @@ h2 {
 }
 
 img {
-    height: 370px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
 }
 
 #projects {
@@ -60,6 +63,31 @@ img {
     grid-gap: .5rem;
     justify-items: center;
 }
+
+#projDiv div {
+    width: 400px;
+    height: 300px;
+}
+
+.projImage:hover img {
+    opacity: 0.3;
+}
+
+.projImage:hover .showInfo {
+    opacity: 1;
+}
+
+.showInfo {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
 
 #contactForm {
     max-width: 800px;

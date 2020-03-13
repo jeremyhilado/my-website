@@ -37,16 +37,35 @@ function app(projects) {
     
     const $projDiv = $('#projDiv')
 
-    for(let i = 0; i<projects.length; i++) {
-        let $card = $(`<div class="card">
-            <img src=${projects[i].image} class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">${projects[i].title}</h5>
-                <p class="card-text">${projects[i].description}</p>
-                <a href=${projects[i].url} class="btn btn-primary" target="_blank">View Project</a>
-            </div>
-            </div>`)
-        $projDiv.append($card)
+    for(let i = 0; i < projects.length; i++) {
+        // let $card = $(`<div class="card">
+        //     <img src=${projects[i].image} class="card-img-top" alt="...">
+        //     <div class="card-body">
+        //         <h5 class="card-title">${projects[i].title}</h5>
+        //         <p class="card-text">${projects[i].description}</p>
+        //         <a href=${projects[i].url} class="btn btn-primary" target="_blank">View Project</a>
+        //     </div>
+        //     </div>`)
+        // $projDiv.append($card)
+
+        let $a = $('<a>')
+        $a.attr('href', projects[i].url).attr('target','_blank')
+        $projDiv.append($a)
+        let $imageDiv = $('<div>')
+        // $div.css('background-image', `url('${projects[i].image}')`) 
+        $imageDiv.addClass('projImage')
+        let $img = $('<img>')
+        $img.attr('src', projects[i].image)
+        $a.append($imageDiv)
+        $imageDiv.append($img)
+        // $div.append($img)
+        let $projInfo = $('<div>')
+        $projInfo.addClass('showInfo')
+        let $h3 = $('<h3>')
+        $h3.text(projects[i].title)
+        let $p = $('<p>')
+        $p.text(projects[i].description)
+        $projInfo.append($h3).append($p)
     }
 }
 
