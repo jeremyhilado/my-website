@@ -26,44 +26,28 @@ fetch(source)
 
 const $main = $('main')
 
-// projects.forEach( (project) => {
-//     console.log(project)
-//     // const $img = $('<img>')
-//     // $img.attr('src', projects.image)
-// )}
-
 function app(projects) {
     console.log('app - projects', projects)
     
     const $projDiv = $('#projDiv')
 
     for(let i = 0; i < projects.length; i++) {
-        // let $card = $(`<div class="card">
-        //     <img src=${projects[i].image} class="card-img-top" alt="...">
-        //     <div class="card-body">
-        //         <h5 class="card-title">${projects[i].title}</h5>
-        //         <p class="card-text">${projects[i].description}</p>
-        //         <a href=${projects[i].url} class="btn btn-primary" target="_blank">View Project</a>
-        //     </div>
-        //     </div>`)
-        // $projDiv.append($card)
-
         let $a = $('<a>')
         $a.attr('href', projects[i].url).attr('target','_blank')
-        $projDiv.append($a)
         let $imageDiv = $('<div>')
         $imageDiv.addClass('projImage')
         let $img = $('<img>')
-        $img.attr('src', projects[i].image)
-        $a.append($imageDiv)
-        $imageDiv.append($img)
+        $img.attr('src', projects[i].image)        
         let $projInfo = $('<div>')
         $projInfo.addClass('showInfo')
-        $imageDiv.append($projInfo)
         let $h3 = $('<h3>')
         $h3.text(projects[i].title)
         let $p = $('<p>')
         $p.text(projects[i].description)
+        $a.append($imageDiv)
+        $imageDiv.append($img)
+        $imageDiv.append($projInfo)
+        $projDiv.append($a)
         $projInfo.append($h3).append($p)
     }
 }
