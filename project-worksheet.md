@@ -11,8 +11,8 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |Day 1| Project Description | Complete
 |Day 2| Wireframes / Priority Matrix / Timeline | Complete
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
-|Day 4| MVP & Bug Fixes | Incomplete
-|Day 5| Final Touches | Incomplete
+|Day 4| MVP & Bug Fixes | Complete
+|Day 5| Final Touches | Complete
 |Day 6| Present | Incomplete
 
 
@@ -81,36 +81,36 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Contact Form | H | 2hrs| - | - |
-| Working with API | H | 3hrs| - | - |
-| Hamburger Menu | H | 3 hrs | - | - |
-| Desktop Nav Bar | H | 2.5 hrs | - | - |
-| Basic CSS Styling | H | 3 hrs | - | - |
-| About Me Section | H | 2 hrs | - | - |
-| Projects Section | H | 4 hrs | - | - |
-| Footer | M | 2 hrs | - | - |
-| Nav Bar Animations | L | 3 hrs | - | - |
-| Project Preview Animations | L | 4 hrs | - | - |
-| Carousel | L | 3 hrs | - | - |
-| Contact Form Validatoin | L | 2 hrs | - | - |
-| Total |  | 33.5 hrs| - hrs |  - hrs |
+| Contact Form | H | 2 hrs| 2 hrs | 2 hrs |
+| Working with API | H | 3 hrs| 2 hrs | 2 hrs |
+| Hamburger Menu | H | 3 hrs | 2 hrs | 2 hrs |
+| Desktop Nav Bar | H | 2.5 hrs | 2 hrs | 2 hrs |
+| Basic CSS Styling | H | 3 hrs | 2 hrs | 5 hrs |
+| About Me Section | H | 2 hrs | 2 hrs | 2 hrs |
+| Projects Section | H | 4 hrs | 2 hrs | 4 hrs |
+| Footer | M | 2 hrs | 2 hrs | 2 hrs |
+| Nav Bar Animation | L | 3 hrs | 0 hrs | 0 hrs |
+| Project Preview Animations | L | 4 hrs | 2 hrs | 4 hrs |
+| Carousel | L | 3 hrs | 0 hrs | 0 hrs |
+| Contact Form Validatoin | L | 2 hrs | 0 hrs | 0 hrs |
+| Total |  | 33.5 hrs| 18 hrs |  25 hrs |
 
 ## Additional Libraries
- Use this section to list all supporting libraries and their role in the project. 
+jQuery - used to pull projects section data via Google API, create web page elements based on project data, and close hamburger nav menu when clicked.
+
+Bootstrap - used for mobile and desktop navigation bar
 
 ## Code Snippet
 
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
 
-```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
-```
+$('body').on('click', function () {
+    $('.navbar-collapse').collapse('hide')
+})
+
+//this is the code that closes the hamburger menu navbar after clicking anywhere on the page
 
 ## Issues and Resolutions
  Use this section to list of all major issues encountered and their resolution.
 
-#### SAMPLE.....
-**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
-**RESOLUTION**: Missing comma after first object in sources {} object
+Only major issue I had was getting the photo of myself to stay on the page when making the browser smaller. Still trying to figure out how to do that properly.
